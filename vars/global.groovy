@@ -5,6 +5,7 @@ import org.cl.*
 def call(String param1, String param2){
 
     println 'Ejecución de Pipeline'
+    println 'RAMA Test Pipeline Shared Library'
 
     pipeline{
         agent any
